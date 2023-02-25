@@ -11,7 +11,7 @@ Get-ExecutionPolicy -list
 
 Set-ExecutionPolicy -ExecutionPolicy Undefined -scope LocalMachine
 
-' Save the changes and press enter in Prompt Window Yes, to all.
-' Close Powershell Window by typing exit'
+' Save the changes and press enter in Prompt Window Yes, to all.'
+' Close Powershell Window by typing exit and press enter.'
 
 
