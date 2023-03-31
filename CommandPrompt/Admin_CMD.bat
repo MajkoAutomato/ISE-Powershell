@@ -2,6 +2,7 @@
 
 
 : this line will not be visible for the user 
+: this is how we run Powershell as Admin in CMD!
 
 
 
