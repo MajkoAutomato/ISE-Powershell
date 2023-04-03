@@ -1,0 +1,2 @@
+This is a script which set the executionpolicy to localmachine in order to run specific task. 
+After task was done successfully it will undo the process, again.
