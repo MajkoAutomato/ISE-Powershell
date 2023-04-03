@@ -2,7 +2,9 @@
 
 
 : this line will not be visible for the user 
-: this is how we run Powershell as Admin in CMD by copying the script and save as .bat - file
+: this is how we run Powershell as Admin in CMD by copying the script and save as .bat - file . 
+: double click on it to run the batch  
+
 
 
 
