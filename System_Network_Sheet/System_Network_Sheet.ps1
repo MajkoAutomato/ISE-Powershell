@@ -1,6 +1,6 @@
 ﻿Start-Transcript
-Systeminfo
-ipconfig /all
+	Systeminfo;
+	ipconfig /all;
 Stop-Transcript
 
 
