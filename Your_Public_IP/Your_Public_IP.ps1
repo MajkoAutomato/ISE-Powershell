@@ -3,6 +3,6 @@
 
 Start-Transcript -Path "C:\Documents\YourPublicIP.txt"
     
-    curl ipinfo.io/ip;
+curl ipinfo.io/ip;
 
- Stop-Transcript
+Stop-Transcript

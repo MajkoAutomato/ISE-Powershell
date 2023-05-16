@@ -1,0 +1,43 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230516210134
+Username: DESKTOP-JI7UVA1\48578
+RunAs User: DESKTOP-JI7UVA1\48578
+Configuration Name: 
+Machine: DESKTOP-JI7UVA1 (Microsoft Windows NT 10.0.19045.0)
+Host Application: Powershell.exe -command & {Start-Transcript YourPublicIP.txt; curl ipinfo.io/ip; Stop-Transcript}
+Process ID: 3456
+PSVersion: 5.1.19041.2673
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.2673
+BuildVersion: 10.0.19041.2673
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is YourPublicIP.txt
+
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : 5.253.206.35
+RawContent        : HTTP/1.1 200 OK
+                    access-control-allow-origin: *
+                    x-envoy-upstream-service-time: 1
+                    strict-transport-security: max-age=2592000; includeSubDomains
+                    Content-Length: 12
+                    Content-Type: text/html; charset=u...
+Forms             : {}
+Headers           : {[access-control-allow-origin, *], [x-envoy-upstream-service-time, 1], [strict-transport-security,
+                    max-age=2592000; includeSubDomains], [Content-Length, 12]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : System.__ComObject
+RawContentLength  : 12
+
+**********************
+Windows PowerShell transcript end
+End time: 20230516210135
+**********************

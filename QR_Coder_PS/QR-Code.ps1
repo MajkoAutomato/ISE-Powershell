@@ -6,11 +6,11 @@
 
 'Hit Y and enter to confirm installation of PackageManagement NUGET'
 
-		Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy Unrestricted;
+	Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy Unrestricted;
 
 'Hit Y and enter to run script on localmachine'
 
-		New-PSOneQRCodeURI -URI 'https:\\MajkoAutomato.github.io/' -Width 23 -OutPath 'C:\QR-Code.PNG';
+	New-PSOneQRCodeURI -URI 'https:\\MajkoAutomato.github.io/' -Width 23 -OutPath 'C:\QR-Code.PNG';
 
 
 

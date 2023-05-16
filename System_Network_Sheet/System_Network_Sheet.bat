@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 458c8e752d852536a2b774159e598583f2fab905
 @ECHO OFF
 Powershell.exe -command "& {Start-Transcript datasheet; systeminfo; ipconfig /all; Stop-Transcript}"
 
