@@ -1,0 +1,28 @@
+In order to run Active Directory Lightweight Directory Services (AD LDS) version of powershell 
+type the command line in Powershell as admin, as below:
+
+Install-WindowsFeature RSAT-AD-PowerShell
+
+If it does not work on windows computer:
+
+1. Install the AD module on PowerShell Core 7.x  stable version. (None Beta-Support)
+
+2. Install the WindowsCompatibility module and load WindowsCompatibility module with cmdlet
+
+2.1 Install-Module -Name WindowsCompatibility
+
+2.2 Import-Module -Name WindowsCompatibility
+
+3. Load the AD module as,below
+    Import-WinModule -Name ActiveDirectory
+
+
+How to check if it was installed, successfully ?
+
+
+Get-WindowsCapability -Name RSAT* -Online | Select-Object -Property DisplayName, State
+
+After installation activate the checkbox in windows features
+
+
+
