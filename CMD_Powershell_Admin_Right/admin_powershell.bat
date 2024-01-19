@@ -9,10 +9,7 @@ PAUSE
 powershell -Command "& {Start-Process Powershell -Verb runAs}"
 
 
-lose window.
+ECHO Close window.
 
-PAUSE
-
-powershell -Command "& {Start-Process Powershell -Verb runAs}"
 
 
